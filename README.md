@@ -17,7 +17,7 @@ The data analysed comes from a huge CSV file provided by [Brazilian Open Data Po
   - [Chart.js](chartjs.org/docs/latest/)
 
 ## Database Structure 🧱
-![image model v3](https://user-images.githubusercontent.com/29782248/85910730-02ccc200-b7f7-11ea-8a28-ffb7ef7a51d4.png)
+![image-model-v3](https://user-images.githubusercontent.com/29782248/85910730-02ccc200-b7f7-11ea-8a28-ffb7ef7a51d4.png)
 
 ## First Steps 🧭
 
@@ -49,16 +49,16 @@ The data analysed comes from a huge CSV file provided by [Brazilian Open Data Po
 > pipenv install --dev
 ```
 
-- Alter databases config to your NAME, USER and PASSWORD in settings.py, like:
+- Alter databases config to your `NAME`, `USER` and `PASSWORD` in settings.py, like:
 ``` python
 NAME = 'observatorio'
 USER = 'root'
 PASSWORD = ''
 ```
 
-- Create the database NAME in your server:
+- Create the database `NAME` in your server:
 ``` sql
-CREATE DATABASE observatorio;
+CREATE DATABASE observatorio DEFAULT CHARACTER SET utf8mb4;
 ```
 
 - Run migrations:

@@ -87,9 +87,10 @@ DATABASES = {
         'NAME': 'observatorio',
         'USER': 'root',
         'PASSWORD': '',
+		'PORT': '3308',
         # CHANGE TO YOUR CONFIG
 
-        'DEFAULT-CHARACTER-SET': 'utf8',
+		'CHARSET': 'utf8',
 
         'OPTIONS': {
             'isolation_level': 'read committed',
